@@ -1,10 +1,9 @@
-IBMlearner/2561 - Capstone - Full Stack Software Developer 
+# coding-project-template
+# Car Dealership Application 
 
 This is an IBM full stack software developer capstone project. This is a website of a fake national car dealership that allows new and existing customers to look up different branches by state and look at customer reviews of the various branches. Customers should be able to create an account and add their review for any of the branches.
 
 # Project Overview
-
-# Car Dealership Application 
 
 # Cloned the repository and added static pages
 - Forked the GitHub repo containing the project template. The main web application is a predefined Django application.
@@ -51,6 +50,3 @@ The solution will consist of multiple technologies :
 6) The "Sentiment Analyzer Service" is deployed on IBM Cloud Code Engine, it provides the following service:
   - /analyze/:text - To analyze the sentiment of the text passed. It returns positive, negative or neutral.
 7) The "Dealerships Website" consumes the "Sentiment Analyzer Service" to analyze the sentiments of the reviews through the Django Proxy contained within the Django application.
-
-
-- Jelvan Baloaloa Ricolcol 
